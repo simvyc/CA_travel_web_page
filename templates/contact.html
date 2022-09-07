@@ -33,23 +33,23 @@
     <div class="divider"></div>
     <main>
       <div class="form-body form-control">
-        <div class="row">
+        <div class="row container-fluid">
           <div class="form-content">
             <div class="form-items">
               <h3>Contact Us</h3>
-              <p>Fill in the data below and we will call you! :)</p>
+              <p>Fill in the data below and we will call you!</p>
               <form class="requires-validation" novalidate>
-                <div class="col-md-10">
+                <div class="col-md-10 m-3">
                   <input class="form-control" type="text" name="name" placeholder="Full Name" required>
                   <div class="valid-feedback">Username looks good.</div>
                   <div class="invalid-feedback">Username field cannot be blank</div>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 m-3">
                   <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
                   <div class="valid-feedback">Email field is valid!</div>
                   <div class="invalid-feedback">Incorrect Email</div>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 m-3">
                   <select class="form-select mt-3" required>
                     <option selected disabled value="">Country</option>
                     <option value="lithuania">Lithuania</option>
@@ -69,7 +69,7 @@
                   <div class="valid-feedback">You selected a country</div>
                   <div class="invalid-feedback">Please select a country</div>
                 </div>
-                <div class="col-md-10">
+                <div class="col-md-10 m-3">
                   <input class="form-control" type="message" name="message" placeholder="Write Your Message Here" required>
                   <div class="valid-feedback">Thank you for Your message!</div>
                   <div class="invalid-feedback">Please give us more information!</div>
@@ -98,6 +98,5 @@
     </div>
     </main>
       <script src="../js/js.js"></script>
-      <script src="../js/bootstrapValidator.js"></script>
     </body>
     </html>

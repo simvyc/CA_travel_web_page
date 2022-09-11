@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../pictures/logo/logo3.png">
+    <title>Simona's Travels</title>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+  <body background="../pictures/background/background.jpg">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+      <a class="navbar-brand" href="../index.html">Simona's Travels</a>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.html">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../templates/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../templates/travels.html">Travels</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../templates/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="divider"></div>
+    <main>
+      <div class="form-body form-control">
+        <div class="row container-fluid">
+          <div class="form-content">
+            <div class="form-items">
+              <h3>Contact Us</h3>
+              <p>Fill in the data below and we will call you!</p>
+              <form class="requires-validation" novalidate>
+                <div class="col-md-10 m-3">
+                  <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                  <div class="valid-feedback">Username looks good.</div>
+                  <div class="invalid-feedback">Username field cannot be blank</div>
+                </div>
+                <div class="col-md-10 m-3">
+                  <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
+                  <div class="valid-feedback">Email field is valid!</div>
+                  <div class="invalid-feedback">Incorrect Email</div>
+                </div>
+                <div class="col-md-10 m-3">
+                  <select class="form-select mt-3" required>
+                    <option selected disabled value="">Country</option>
+                    <option value="lithuania">Lithuania</option>
+                    <option value="estonia">Estonia</option>
+                    <option value="latvia">Latvia</option>
+                    <option value="Norway">Norway</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="USA">USA</option>
+                    <option value="England">Engalnd</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="France">France</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Slovenia">Slovenia</option>
+                    <option value="Switzerland">Switzerland</option>
+                  </select>
+                  <div class="valid-feedback">You selected a country</div>
+                  <div class="invalid-feedback">Please select a country</div>
+                </div>
+                <div class="col-md-10 m-3">
+                  <input class="form-control" type="message" name="message" placeholder="Write Your Message Here" required>
+                  <div class="valid-feedback">Thank you for Your message!</div>
+                  <div class="invalid-feedback">Please give us more information!</div>
+                </div>
+                <div class="col-md-7 mt-3">
+                  <label class="mb-3 mr-1" for="insurance">Information about Travel Insurance: </label>
+                  <input type="radio" class="btn-check" name="insurance" id="interested" autocomplete="off">
+                  <label class="btn btn-sm btn-outline-info" for="interested">Interested</label>
+                  
+                  <input type="radio" class="btn-check" name="insurance" id="not-interested" autocomplete="off">
+                  <label class="btn btn-sm btn-outline-info" for="not-interested">Not interested</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label">I confirm that all data are correct</label>
+                  <div class="invalid-feedback">Please confirm that the entered data are all correct!</div>
+                </div>
+                <div class="form-button mt-3">
+                  <button id="submit" type="submit" class="btn btn-primary">Register</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </main>
+      <script src="../js/js.js"></script>
+    </body>
+    </html>
